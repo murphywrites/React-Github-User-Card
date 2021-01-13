@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.usercard-container {
+  display: flex;
+  border: 2px solid black;
+  flex-direction: row;
+  margin: 2%;
+}
+
+.usercard-container img{
+  width: 30%;
+  height: 90%;
+  margin: auto 0;
+  border-radius: 30%;
+}
+
+.subusercard-container {
+  display: flex;
+  width: 30%;
+  max-width: 100%;
+  border: 2px solid red;
+}
+
+.followers-container {
+  display: none;
+  width:100%;
+  flex-direction: row;
+  flex-wrap: wrap ;
+}
+
+.card-info {
+  max-width: 100%;
+}
